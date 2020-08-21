@@ -10,6 +10,7 @@ function installRequirements {
   if ($installJQ || $installAwk); then
     echo "Installing requirements";
     if [[ "$(uname)" == "Darwin" ]]; then
+      brew update;
       if $installJQ; then
         echo "Installing jq";
         brew install jq;
