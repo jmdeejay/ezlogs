@@ -17,7 +17,7 @@ Tool to beautify, color and ease the usage of the json received by `apps logs`.
 - Use `ezlogs` in your terminal.
 
 ## Tips
-- To filter by app: `ezlogs | grep -i "docker.crm"`
+- To filter by app: `ezlogs | grep -i "docker\.crm[ \t]"`
 - To filter by log level: `ezlogs | grep -i "\[warning\]"`
 
 ### Installation
